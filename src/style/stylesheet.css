@@ -1,5 +1,50 @@
-p {
-	color:red;
+body {
+	margin: 0;
+	font-family: Arial;
 }
+
+button {
+	font-family: Arial;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	background-color: lightgray;
+}
+
+.left-section {
+	display: flex;
+	font-size: 20px;
+	padding: 8px 8px;
+	align-items: center;
+}
+
+.logo-img {
+	width:35px;
+	height:35px;
+	margin-left: 10px;
+	margin-right: 8px;
+}
+
+.right-section {
+	display: flex;
+	
+	margin-left:950px;
+	margin-right:0px;
+	align-items: center;
+}
+
+.button-style {
+	background-color: rgb(85, 83, 230);
+	color: white;
+	padding: 8px 10px;
+	border: none;
+	font-size: 18px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+
 
 
